@@ -1,5 +1,3 @@
-
-
 public class Launcher  {
 
     public void run() throws InterruptedException {
@@ -15,9 +13,9 @@ public class Launcher  {
              */
 
             InputManager.INSTANCE.getScanner();
+//            LanguageManager.INSTANCE.setLanguage();
+            System.out.println(LanguageManager.INSTANCE.getLanguage());
 
-
-            LanguageManager.INSTANCE.setLanguage();
 
 
         }
